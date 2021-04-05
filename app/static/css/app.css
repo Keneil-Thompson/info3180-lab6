@@ -5,3 +5,33 @@ body {
 footer  {
     padding-top: 20px;
 }
+.news__list{
+    display: grid; 
+    list-style: none;  
+}
+.newscard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 20px;
+}
+.news__item{ 
+    border-top: 6px solid #57b593;
+    box-shadow: 0px 5px 5px #d3d3d3, -5px 5px 5px #d3d3d3, 5px 5px 5px #d3d3d3;
+    border-radius: 5px;
+}
+.title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.desc{
+    padding: 10px;
+}
+.pictures{
+    width: 300px;
+    height: 300px;
+}
+
+.news{
+    padding: 5px;
+}
